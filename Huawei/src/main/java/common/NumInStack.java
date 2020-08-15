@@ -1,6 +1,6 @@
-/**
+package common; /**
  * Copyright (C)
- * FileName: NumInStack
+ * FileName: common.NumInStack
  * Author:   cp
  * Date:     2020/8/11 10:38
  * Description:
@@ -10,7 +10,6 @@
  */
 
 /**
- * 〈一句话功能简述〉<br> 
  * 〈计算堆栈中的剩余数字〉
  * 向一个空栈中依次存入正整数,假
  * 设入栈元素n(1<=n<=2^31-1)按顺序依次为nx、n4、n3、n2、n1,

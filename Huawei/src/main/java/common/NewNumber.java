@@ -1,6 +1,6 @@
-/**
+package common; /**
  * Copyright (C)
- * FileName: NewNumber
+ * FileName: common.NewNumber
  * Author:   cp
  * Date:     2020/8/11 10:36
  * Description:

@@ -1,6 +1,6 @@
-/**
+package common; /**
  * Copyright (C)
- * FileName: NineBlockBoxInput
+ * FileName: common.NineBlockBoxInput
  * Author:   cp
  * Date:     2020/8/11 10:27
  * Description:

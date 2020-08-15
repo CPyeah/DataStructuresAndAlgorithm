@@ -1,6 +1,6 @@
-/**
+package common; /**
  * Copyright (C)
- * FileName: MergeArray
+ * FileName: common.MergeArray
  * Author:   cp
  * Date:     2020/8/11 10:33
  * Description:

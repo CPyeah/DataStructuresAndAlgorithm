@@ -1,6 +1,6 @@
-/**
+package common; /**
  * Copyright (C)
- * FileName: EncryptString
+ * FileName: common.EncryptString
  * Author:   cp
  * Date:     2020/8/11 10:24
  * Description:

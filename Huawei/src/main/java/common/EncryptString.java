@@ -9,6 +9,7 @@ package common; /**
  * 作者姓名           修改时间           版本号              描述
  */
 
+
 /**
  * 〈一句话功能简述〉<br> 
  * 〈〉
@@ -25,5 +26,24 @@ package common; /**
  */
 public class EncryptString {
 
+    public static void main(String[] args) {
+        String input = "abcde";
+        char[] chars = input.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            chars[i] = (char) (chars[i] + getOffsets(i));
+        }
+        System.out.println(new String(chars));
+    }
+
+    private static int getOffsets(int i) {
+        if (i == 0) {
+            return 1;
+        } else if (i == 1) {
+            return 2;
+        } else if (i == 2) {
+            return 4;
+        }
+        return getOffsets(i-1)+getOffsets(i-2)+getOffsets(i-3);
+    }
 
 }
